@@ -9,12 +9,15 @@ import React from "react";
 const bayon =
   "https://media-exp1.licdn.com/dms/image/C4D03AQHXzD5ZUmbpSw/profile-displayphoto-shrink_200_200/0/1516574446401?e=1619049600&v=beta&t=4hI89lgoF7rS7uomD0_kLlEtVIIRHJn6Dobs06yP5UE";
 
+const katie =
+  "https://images.squarespace-cdn.com/content/v1/54c4dc08e4b0b73c478f4cfd/1614135043962-NYZMBOIZG2CVKC3LRA1O/ke17ZwdGBToddI8pDm48kK60W-ob1oA2Fm-j4E_9NQB7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0kD6Ec8Uq9YczfrzwR7e2Mh5VMMOxnTbph8FXiclivDQnof69TlCeE0rAhj6HUpXkw/unnamed.jpg?format=500w";
+
 function Copyright() {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
       {"Copyright © "}
       <Link color="inherit" href="https://material-ui.com/">
-        forteworks.com
+        Blue Cottage Remodelin LLC.
       </Link>{" "}
       {new Date().getFullYear()}
       {"."}
@@ -38,8 +41,25 @@ export default function Footer(props) {
     <footer className={classes.footer}>
       <Container maxWidth="lg">
         <Grid container>
-          <Grid item xs={12} sm={4}>
-            <div style={{ textAlign: "center" , marginTop:"20px"}}>
+          <Grid item xs={12} sm={3}>
+            <div style={{ textAlign: "center", marginTop: "20px" }}>
+              <img
+                src={bayon}
+                alt="..."
+                style={{ borderRadius: "25px", height: "100px" }}
+              />
+              <Typography
+                variant="body1"
+                align="center"
+                color="textSecondary"
+                component="p"
+              >
+                Bayon Forte
+              </Typography>
+            </div>
+          </Grid>
+          <Grid item xs={12} sm={3}>
+            <div style={{ textAlign: "center", marginTop: "20px" }}>
               <div style={{ marginTop: 15 }}>
                 <a
                   href="tel:8122670592"
@@ -58,34 +78,38 @@ export default function Footer(props) {
               </div>
             </div>
           </Grid>
-          <Grid item xs={12} sm={4}>
-            <div style={{marginTop:'20px'}}> 
-            <Typography variant="h6" align="center"  gutterBottom>
-              forteworks
-            </Typography>
-            <Typography
-              variant="subtitle1"
-              align="center"
-              color="textSecondary"
-              component="p"
-            >
-              Saas, MVP, Mobile Apps, Prototypes
-            </Typography>
-            <Copyright />
+          <Grid item xs={12} sm={3}>
+            <div style={{ marginTop: "20px" }}>
+              <Typography variant="h6" align="center" gutterBottom>
+                Blue Cottage Remodeling
+              </Typography>
+              <Typography
+                variant="subtitle1"
+                align="center"
+                color="textSecondary"
+                component="p"
+              >
+                Call for a free estimate.
+              </Typography>
+              <Copyright />
             </div>
           </Grid>
 
-          <Grid item xs={12} sm={4}>
-            <div style={{textAlign:'center', marginTop:"20px" }}> 
-            <img
-              src={bayon}
-              alt="..."
-              style={{ borderRadius: "25px", height: "100px" }}
-            />
-            </div>
-            <div>
-            <a href='http://www.forteworks.com/Forte_2021_FullStackDeveloper.pdf' target='blank' style={{textDecoration:'none'}} download>Experience and References</a>
-
+          <Grid item xs={12} sm={3}>
+            <div style={{ textAlign: "center", marginTop: "20px" }}>
+              <img
+                src={katie}
+                alt="..."
+                style={{ borderRadius: "25px", height: "100px" }}
+              />
+              <Typography
+                variant="body1"
+                align="center"
+                color="textSecondary"
+                component="p"
+              >
+                Katie Forte
+              </Typography>
             </div>
           </Grid>
         </Grid>

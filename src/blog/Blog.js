@@ -1,5 +1,4 @@
 import {
-  Button,
   Card,
   CardActions,
   CardContent,
@@ -75,19 +74,19 @@ export default function Blog() {
                   <CardContent>
                     
                     <Typography variant="h5" component="h2">
-                      Frontend
+                      Carpentry
                     </Typography>
                   
                     <Typography variant="body2" component="p" color="textSecondary">
-                      React, Typescript, Animation, Redux 
-                      <br />
-                      {'"Single Page Applications"'}
+                      Frameing, Finishing, Decks , Roof Repair
+                      
+                     
                     </Typography>
                   </CardContent>
                   <CardActions>
-                    <Button size="small" onClick={()=> {
+                    {/* <Button size="small" onClick={()=> {
                       alert('call or text me: 812-267-0592')
-                    }}>+</Button>
+                    }}>+</Button> */}
                   </CardActions>
                 </Card>
               </Paper>
@@ -99,19 +98,18 @@ export default function Blog() {
                   <CardContent>
                     
                     <Typography variant="h5" component="h2">
-                      Database
+                      Kitchen and Bath
                     </Typography>
                   
                     <Typography variant="body2" component="p"  color="textSecondary">
-                      MySql, MongoDB, Neo4j
-                      <br />
-                      {'traditional SQL as well as no-sql and graph databases.'}
+                      Tile, Cabinets, Showers, Vanities, Plumbing 
+                     
                     </Typography>
                   </CardContent>
                   <CardActions>
-                  <Button size="small" onClick={()=> {
+                  {/* <Button size="small" onClick={()=> {
                       alert('call or text me: 812-267-0592')
-                    }}>+</Button>
+                    }}>+</Button> */}
                   </CardActions>
                 </Card>
               </Paper>
@@ -122,18 +120,18 @@ export default function Blog() {
                   <CardContent>
                     
                     <Typography variant="h5" component="h2">
-                      Backend
+                    Handyman Services
                     </Typography>
                    
                     <Typography variant="body2" component="p" color="textSecondary">
-                      PHP, NodeJS, Python, Server Administration, API Integration, GraphQL
+                    Electrical, Plumbing, Doors and Windows
                       
                     </Typography>
                   </CardContent>
                   <CardActions>
-                  <Button size="small" onClick={()=> {
+                  {/* <Button size="small" onClick={()=> {
                       alert('call or text me: 812-267-0592')
-                    }}>+</Button>
+                    }}>+</Button> */}
                   </CardActions>
                 </Card>
               </Paper>

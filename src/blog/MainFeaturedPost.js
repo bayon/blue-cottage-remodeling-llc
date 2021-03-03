@@ -4,7 +4,7 @@ import Paper from '@material-ui/core/Paper';
 import { makeStyles } from '@material-ui/core/styles';
 import PropTypes from 'prop-types';
 import React from 'react';
-import logo from './assets/img/pexels-pixabay-159201.jpg';
+import logo from './assets/img/american_gothic_bw.jpg';
 
 
 
@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
     color: theme.palette.common.white,
     marginBottom: theme.spacing(4),
     backgroundImage: {logo},
-    backgroundSize: 'cover',
+    backgroundSize: 'contain',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center',
   },
@@ -53,7 +53,7 @@ export default function MainFeaturedPost(props) {
              "title"
             </Typography> */}
             <Typography variant="h5" color="inherit" paragraph>
-             Full Stack Application Development
+             Remodeling & Renovation
             </Typography>
             {/* <Link variant="subtitle1" href="#">
               "link"
