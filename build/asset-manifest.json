@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/build/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/build/static/js/main.4ccf1c4d.chunk.js",
+    "main.js.map": "/build/static/js/main.4ccf1c4d.chunk.js.map",
+    "runtime-main.js": "/build/static/js/runtime-main.8b8f995d.js",
+    "runtime-main.js.map": "/build/static/js/runtime-main.8b8f995d.js.map",
+    "static/js/2.0ec5b340.chunk.js": "/build/static/js/2.0ec5b340.chunk.js",
+    "static/js/2.0ec5b340.chunk.js.map": "/build/static/js/2.0ec5b340.chunk.js.map",
+    "static/js/3.9aaae58e.chunk.js": "/build/static/js/3.9aaae58e.chunk.js",
+    "static/js/3.9aaae58e.chunk.js.map": "/build/static/js/3.9aaae58e.chunk.js.map",
+    "index.html": "/build/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/build/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.0ec5b340.chunk.js.LICENSE.txt": "/build/static/js/2.0ec5b340.chunk.js.LICENSE.txt",
+    "static/media/american_gothic_bw.897fc359.jpg": "/build/static/media/american_gothic_bw.897fc359.jpg",
+    "static/media/pexels-pixabay-159201.b51d221f.jpg": "/build/static/media/pexels-pixabay-159201.b51d221f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8b8f995d.js",
+    "static/js/2.0ec5b340.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.4ccf1c4d.chunk.js"
+  ]
+}
