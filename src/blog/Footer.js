@@ -17,7 +17,7 @@ function Copyright() {
     <Typography variant="body2" color="textSecondary" align="center">
       {"Copyright © "}
       <Link color="inherit" href="https://material-ui.com/">
-        Blue Cottage Remodelin LLC.
+        Blue Cottage Remodeling LLC.
       </Link>{" "}
       {new Date().getFullYear()}
       {"."}
