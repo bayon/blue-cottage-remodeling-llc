@@ -6,6 +6,9 @@ import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
 import PropTypes from "prop-types";
 import React from "react";
+import logo from './assets/img/blue-cottage-840-464-widened-to-1024.png';
+
+
 
 const useStyles = makeStyles((theme) => ({
   toolbar: {
@@ -32,9 +35,14 @@ export default function Header(props) {
     <React.Fragment>
       <Toolbar className={classes.toolbar}>
         <Grid container>
-          <Grid item xs={12} sm={6}>
+        <Grid item xs={12} sm={2}>
+        {/* <Paper className={classes.mainFeaturedPost} style={{ backgroundImage: `url(${logo})` , backgroundSize:'cover', height:'100px'}}> */}
+          <img src={`${logo}`} style={{height:"100px"}} />
+      {/* </Paper> */}
+          </Grid>
+          <Grid item xs={12} sm={4}>
             <Typography
-              component="h2"
+              component="h5"
               variant="h5"
               color="inherit"
               align="center"
