@@ -13,7 +13,6 @@ import React from "react";
 import logo from "./assets/img/pexels-pixabay-159201.jpg";
 //import FeaturedPost from "./FeaturedPost";
 import Footer from "./Footer";
-import Header from "./Header";
 import MainFeaturedPost from "./MainFeaturedPost";
 
 
@@ -62,7 +61,7 @@ export default function Blog() {
     <React.Fragment>
       <CssBaseline />
       <Container maxWidth="lg">
-        <Header   />
+        {/* <Header   /> */}
         <main>
           <MainFeaturedPost post={mainFeaturedPost} />
           <Grid container spacing={4}>
