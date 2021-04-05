@@ -77,7 +77,7 @@ export default function Blog() {
                     </Typography>
                   
                     <Typography variant="body2" component="p" color="textSecondary">
-                      Frameing, Finishing, Decks , Roof Repair
+                      Framing, Finishing, Decks , Roof Repair
                       
                      
                     </Typography>
