@@ -6,9 +6,7 @@ import Typography from "@material-ui/core/Typography";
 import PropTypes from "prop-types";
 import React from "react";
 
-const bayon =
-  "https://media-exp1.licdn.com/dms/image/C4D03AQHXzD5ZUmbpSw/profile-displayphoto-shrink_200_200/0/1516574446401?e=1619049600&v=beta&t=4hI89lgoF7rS7uomD0_kLlEtVIIRHJn6Dobs06yP5UE";
-
+const bayon ="https://servewerx.com/static/media/IMG_0729.9b434446.jpg"
 const katie =
   "https://images.squarespace-cdn.com/content/v1/54c4dc08e4b0b73c478f4cfd/1614135043962-NYZMBOIZG2CVKC3LRA1O/ke17ZwdGBToddI8pDm48kK60W-ob1oA2Fm-j4E_9NQB7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0kD6Ec8Uq9YczfrzwR7e2Mh5VMMOxnTbph8FXiclivDQnof69TlCeE0rAhj6HUpXkw/unnamed.jpg?format=500w";
 
